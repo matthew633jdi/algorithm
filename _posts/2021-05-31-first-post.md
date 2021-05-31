@@ -34,3 +34,5 @@ OOP 설계 - SOLID 원칙
  - L : Liskov's Substitution Principle, 객체는 프로그램의 정확성을 깨지 않으며 subtype instance화가 가능해야 한다.
  - I : Interface Segregation Principle, 특정 클라이언트를 위한 인터페이스 하나가 범용 인터페이스보다 낫다.
  - D : Dependency Inversion Principle, 추상화에 의존하라
+
+최근 이클립스 설치 시  JRE가 포함되어 설치됨. 별도 설치 안해도 동작함.
