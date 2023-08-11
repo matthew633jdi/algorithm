@@ -7,24 +7,20 @@ public class B2292 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
-        int result = 0;
-
+        int i = 1;
         if (n != 1) {
-            int i = 1;
-            int total = 2;
+            int startPoint = 2;
             while (true) {
-                if (n >= total && n <= total + (6 * i)) {
-                    System.out.println(total);
-                    System.out.println(total + (6 * i));
-                    result = i;
+                if (n >= startPoint && n < startPoint + (6 * i)) {
                     break;
                 } else {
-                    total += 6 * i + 1;
+                    startPoint += 6 * i;
                 }
                 i++;
             }
+            System.out.println(i + 1);
+        } else {
+            System.out.println(i);
         }
-
-        System.out.println(result);
     }
 }
