@@ -6,7 +6,7 @@ public class B4963 {
     static int n, m, count;
     static int[][] map;
     static boolean[][] visit;
-
+    // 사방
     static int[] dx = {1, 1, 1, 0, 0, -1, -1, -1};
     static int[] dy = {-1, 0, 1, -1, 1, -1, 0, 1};
 
